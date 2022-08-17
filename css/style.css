@@ -73,9 +73,16 @@ header nav li:last-of-type a{
     background-image: url("../images/firstBlockImg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 466px;
+    padding-bottom: 71px;
     box-sizing: border-box;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.mainHaederArtclSt{
+    max-width: 580px;
+    text-align: center;
 }
 .sectionFirstText{
     font-family: 'Poppins';
@@ -97,10 +104,7 @@ header nav li:last-of-type a{
     text-align: center;
     color: #FFFFFF;
 }
-.mainHaederArtclSt{
-    max-width: 580px;
-    margin: auto;
-}
+
 .mainHeaderText {
     margin-top: 18px;
     font-family: 'Poppins';
@@ -161,6 +165,37 @@ header nav li:last-of-type a{
     color: #FFFFFF;
     margin-left: 16px;
 }
+.portfolio{
+    background-image: url("../images/fujiMount.jpg");
+    min-height: 600px;
+    background-size: cover;
+    position: relative;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+.portfolio .subContainer{
+    max-width: 290px;
+    margin-right: 62px;
+}
+.portfolio .subContainer h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.portfolio .subContainer p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
 .pastClient {
     background: #000000;
     padding: 113px 0 140px 0;
@@ -197,6 +232,7 @@ header nav li:last-of-type a{
     padding-top: 113px;
     padding-bottom: 108px;
     align-items: center;
+    text-align: center;
 }
 .needHelpMain {
     max-width: 572px;
