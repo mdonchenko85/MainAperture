@@ -226,7 +226,29 @@ header nav li:last-of-type a{
 .pastCLientPics {
     margin-top: 81px;
 }
-
+.clients{
+    text-align: center;
+}
+.clients li{
+    margin: auto;
+    max-width: 50%;
+}
+.owl-dots .owl-dot  span{
+    background: white;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 35px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.owl-dots .owl-dot  span:active{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border-radius: 35px;
+    background-color: red;
+}
 .needHelpSec{
     background-color: #000000;
     padding-top: 113px;
